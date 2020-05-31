@@ -1,0 +1,135 @@
+body{
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+header{
+	background-color: #000;
+	width: 100%;
+	height: 15%;
+}
+header h2{
+	text-align: center;
+	color: #fff;
+}
+.main{
+	width: 100%;
+	height: 70%;
+	background-color: gray;
+	display: flex;
+}
+.main .sidebar{
+	width: 20%;
+	height: 100%;
+	background-color: #f00;
+
+}
+.main .sidebar ul li{
+	padding: 20px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.sidebar a{
+	text-decoration: none;
+	color: #000;
+}
+.main .sidebar ul li:hover{
+	background-color: gray;
+}
+.main .center{
+	width: 80%;
+	height: 100%;
+	background-color: gray;
+}
+.news{
+	height: 100%;
+	padding: 10px 0;
+}
+.hide{
+	display: none;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+	margin: auto;
+}
+.form input{
+	height: 5vh;
+    margin: 1%;
+}
+.news h3{
+	text-align: center;
+    margin: 0;
+    padding: 1em;
+}
+.news .new{
+	border: 1px solid red;
+	width: 90%;
+	padding: 3px;
+	margin: auto;
+}
+.news .new .name{
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	text-transform: uppercase;
+}
+.news .new .anounce p{
+	-ms-word-break: break-all;
+ word-break: break-all;
+-webkit-hyphens: auto;
+ -moz-hyphens: auto;
+  hyphens: auto;
+}
+.news .new .description p{
+	-ms-word-break: break-all;
+ word-break: break-all;
+-webkit-hyphens: auto;
+ -moz-hyphens: auto;
+  hyphens: auto;
+}
+.items{
+	position: absolute;
+	right: 5%;
+	display: flex;
+}
+.items img:hover{
+	background-color: #999;
+}
+.items img{
+	width: 25px;
+	height: 25px;
+}
+input[type=submit] {
+    padding:5px 15px; 
+
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+.editing input[type=submit] {
+	background-color: gray;
+	color: #fff;
+}
+.editing .back{
+	background-color: gray;
+    color: #000;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+footer{
+	width: 100%;
+	height: 15%;
+	background-color: gray;
+	border-top: 1px solid #000;
+}
+footer h2{
+	text-align: center;
+	color: #fff;
+}
